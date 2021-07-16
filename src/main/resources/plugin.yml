@@ -1,0 +1,12 @@
+main: com.zcash.zCash
+version: 1.1
+name: zCash
+author: emanuelVINI
+depend:
+  - PlaceholderAPI
+  - zLoader
+commands:
+  pontos:
+    aliases: [p]
+  cash:
+  lojacash:

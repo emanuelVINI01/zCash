@@ -1,0 +1,43 @@
+#Placeholders: %zcash_bruto% e %zcash_formtado%
+setcash: zcash.set
+givecash: zcash.give
+resetcash: zcash.reset
+takecash: zcash.take
+sendcash: zcash.pagar
+topcash: zcash.top
+lojacash: zcash.loja
+vercash: zcash.ver
+pontoscomando: zcash.pontos
+vercashoutromsg: "§e%player% tem %cash% de cash."
+resetcashoutromsg: "§eVocê resetou o cash de %player% com sucesso!"
+setcashoutromsg: "§eVocê setou o cash de %player% para %cash%."
+addcashoutromsg: "§eVocê adicionou %cash% para %player%."
+takecashoutromsg: "§eVocê removeu %cash% de %player%."
+falhaset: "§c%argumento% não e um numero!"
+pontosajuda:
+  - "§ezCash"
+  - "§5/pontos setar <nick> <quantia>"
+  - "§5/pontos adicionar <nick> <quantia>"
+  - "§5/pontos resetar <nick>"
+  - "§5/pontos remover <nick> <quantia>"
+  - "§5/pontos ver <nick>"
+semperm: "§cVocê nõo tem permissão para isso!"
+console: "§cO console não pode usar isso!"
+vercashmsg: "§eVocê tem %cash% de cash."
+nomedomenu: "§eLoja de cash"
+tamanho: 27
+naotemcash: "§cVocê não tem cash suficiente!"
+comprou: "§aVocê comprou com sucesso!"
+loja:
+  item1:
+    nome: "§eTeste"
+    custo: 10
+    slot: 10
+    item: BARRIER
+    quantia: 1
+    daritem: false
+    #Executa o comando
+    comandohabilitado: false
+    comando: give %player% barrier 1
+    lore:
+      - "Esse e um item de teste"
